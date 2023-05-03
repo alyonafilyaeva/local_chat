@@ -12,3 +12,6 @@
 2. Перейти в папку, куда склонирован репозиторий командой cd 
 3. Установить зависимости командой npm install
 4. Запустить проект командой npm start
+
+### Демонстрация решения ###
+https://drive.google.com/file/d/1Jnh_NWyG80xU3DGAFJ0PY7ut9uFBPJlo/view?usp=sharing
