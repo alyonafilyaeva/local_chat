@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+    font-family: "Sansita Swashed", cursive;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 50px 50px;
+    background: #fff;
+    border-radius: 10px;
+    /* height: 30vh; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    
+    border: 2px solid #000;
+    outline: none;
+    background: none;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.input-msg {
+    margin: 0 10px;
+    width: 70%;
+    margin-right: 5px;
+}
+
+button {
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    background-color: dodgerblue;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+.clicked {
+    display: none;
+}
+
+.chat-container {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 10px;
+    width: 180%;
+    height: 90vh;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+    background: #fff;
+    border-radius: 10px;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.chat-top {
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+
+.my {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 58%;
+}
+
+.notMy {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.msg-item {
+    background-color: antiquewhite;
+    padding: 7px;
+    border-radius: 10px;
+    margin: 5px 0;
+    max-width: 250px;
+    min-width: 100px;
+}
+
+.name {
+    color: dodgerblue;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text {
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+
+.exit {
+    cursor: pointer;
+}
+
+.smile {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.input-block {
+    display: flex;
+    flex-direction: row;
+}
